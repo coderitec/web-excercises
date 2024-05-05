@@ -8,3 +8,40 @@ section{
     margin: 25px auto;
     border: 10px solid blue;
 }
+section:nth-of-type(1) {
+ background:linear-gradient(to right, green 40%, white 40%, white 60%, green 60%);
+}
+section:nth-of-type(2){
+    align-self: center;
+}
+section:nth-of-type(2).flag {
+    width:1300px ;
+    height: 400px;
+    background: white;
+   
+}
+section.round-circle{
+    width: 200px;
+    height: 200px;
+    background: red;
+    border-radius: 120px;
+    display: grid;
+  
+    
+    
+}
+section:nth-of-type(3){
+    background:linear-gradient( to bottom, red 40%, blue 40%, blue 60%, green 60%);
+}
+section:nth-of-type(4){
+    background: linear-gradient( to bottom, green 40%, yellow 40%, yellow 60%, blue 60%);
+}
+section:nth-of-type(5){
+    background: linear-gradient(to right, blue 40%, white 40%, white 60%, red 60%);
+}
+section:nth-of-type(6){
+    background: linear-gradient(to right, black 40%, yellow 40%, yellow 60%, red 60%);
+}
+section:nth-of-type(7){
+    background: linear-gradient(to bottom, black 40%, red 40%, red 60%, yellow 60%);
+}
