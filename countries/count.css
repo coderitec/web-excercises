@@ -1,6 +1,9 @@
 *{
     margin: 0;
 }
+section{
+    
+}
 
 section{
     width: 80%;
@@ -12,10 +15,10 @@ section:nth-of-type(1) {
  background:linear-gradient(to right, green 40%, white 40%, white 60%, green 60%);
 }
 section:nth-of-type(2) {
- background: radial-gradient(circle, red 25%, white 25%, white 80%);
+ background: radial-gradient(circle, red 20%, white 20%, white );
 }
 section:nth-of-type(3){
-    background:linear-gradient( to bottom, red 40%, blue 40%, blue 60%, green 60%);
+    background:linear-gradient( to bottom, red 30%,white 30%,white 35%, blue 35%, blue 60%,white 60%,white 65%,green 65%,green );
 }
 section:nth-of-type(4){
     background: linear-gradient( to bottom, green 40%, yellow 40%, yellow 60%, blue 60%);
@@ -28,4 +31,13 @@ section:nth-of-type(6){
 }
 section:nth-of-type(7){
     background: linear-gradient(to bottom, black 40%, red 40%, red 60%, yellow 60%);
+}
+section:nth-of-type(8){
+    height: 500px;
+    background-image: url(./orange_star-removebg-preview.png),url(./orange_star-removebg-preview.png),url(./orange_star-removebg-preview.png),url(./orange_star-removebg-preview.png),url(./orange_star-removebg-preview.png);
+    background-repeat: no-repeat,no-repeat,no-repeat;
+    background-size:cover;
+    background-color: red;
+    background-size:180px, 40px,40px,40px, 40px;
+    background-position: 100px 50px, 300px 20px, 360px 90px, 350px 150px, 300px 200px;
 }
